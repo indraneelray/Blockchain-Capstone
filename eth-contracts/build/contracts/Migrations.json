@@ -5,8 +5,7 @@
       "inputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "constructor",
-      "signature": "constructor"
+      "type": "constructor"
     },
     {
       "constant": true,
@@ -21,8 +20,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x445df0ac"
+      "type": "function"
     },
     {
       "constant": true,
@@ -37,8 +35,7 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function",
-      "signature": "0x8da5cb5b"
+      "type": "function"
     },
     {
       "constant": false,
@@ -53,8 +50,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0xfdacd576"
+      "type": "function"
     },
     {
       "constant": false,
@@ -69,8 +65,7 @@
       "outputs": [],
       "payable": false,
       "stateMutability": "nonpayable",
-      "type": "function",
-      "signature": "0x0900f010"
+      "type": "function"
     }
   ],
   "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506102b7806100606000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80630900f01014610051578063445df0ac146100955780638da5cb5b146100b3578063fdacd576146100fd575b600080fd5b6100936004803603602081101561006757600080fd5b81019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919050505061012b565b005b61009d6101f7565b6040518082815260200191505060405180910390f35b6100bb6101fd565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101296004803603602081101561011357600080fd5b8101908080359060200190929190505050610222565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156101f45760008190508073ffffffffffffffffffffffffffffffffffffffff1663fdacd5766001546040518263ffffffff1660e01b815260040180828152602001915050600060405180830381600087803b1580156101da57600080fd5b505af11580156101ee573d6000803e3d6000fd5b50505050505b50565b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561027f57806001819055505b5056fea265627a7a72315820e4d8fa4975d50c723388c5441cebcbc8166691b650549c99312eadee5448e7e564736f6c63430005110032",
@@ -1382,6 +1377,12 @@
     "version": "0.5.17+commit.d19bba13.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x153cDaE9ec580f850AbE3D8fb040293D05281864",
+      "transactionHash": "0xe7fa40e1f183b1a7ebb8968ae120f08c8500c470c4d32c0808b583a55f60d92f"
+    },
     "5777": {
       "events": {},
       "links": {},
@@ -1393,10 +1394,17 @@
       "links": {},
       "address": "0xf25186B5081Ff5cE73482AD761DB0eB0d25abfBF",
       "transactionHash": "0xbea377401b72f266999887583fefa7c202e2d1c73f1f9e9e61fa64f3a6e7d876"
+    },
+    "1589715317013": {
+      "events": {},
+      "links": {},
+      "address": "0xB6DF286467565514D663ce940728da88bbaBEd78",
+      "transactionHash": "0x8b665db164bb7c3f1050391a2de66a4ab2c9bcc831915c0c7818aa4582323ee3"
     }
   },
-  "schemaVersion": "3.0.1",
-  "updatedAt": "2020-05-17T11:28:04.051Z",
+  "schemaVersion": "3.1.0",
+  "updatedAt": "2020-05-17T15:33:20.594Z",
+  "networkType": "ethereum",
   "devdoc": {
     "methods": {}
   },

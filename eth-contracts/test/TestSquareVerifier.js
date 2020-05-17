@@ -27,13 +27,19 @@ contract("TestSquareVerifier", async (accounts) => {
         it("does not verify with incorrect proof", async() => {
             // let falsePair equal to the A_p property
             let falsePair = ["0x12baad06ae829ea52943352045db376000000000000000a", "0x8132fae6f08fcb476ae909020bb6ad975d36b000000000000"];
-            let verified = await contractInstance.verifyTx.call(
-                falsePair,
-                proof.proof.b,
-                proof.proof.c,
-                proof.inputs
-            );
-            assert.equal(verified, false, "Proof is false. It should not have been verified");
+            let error = false
+            try {
+                await contractInstance.verifyTx.call(
+                    falsePair,
+                    proof.proof.b,
+                    proof.proof.c,
+                    proof.inputs
+                );
+            }
+            catch (err) {
+                error = true;
+            }
+            assert.equal(error, true, "Invalid Opcode should throw an error");
         });
 
     });
