@@ -1,7 +1,51 @@
 # Udacity Blockchain Capstone
 
-The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product. 
+The tokens are minted via using ZkSNARKs and the minted tokens are put on sale on OpenSea. 
 
+# Requirements
+
+Truffle
+```
+truffle -v
+Truffle v5.1.26 - a development framework for Ethereum
+```
+Ganache
+```
+Ganache CLI v6.9.1 (ganache-core: 2.10.2)
+```
+Solc compiler version
+```
+solc-compiler v^0.5.6
+```
+
+# Getting Started
+
+1. Clone or unzip this repository.
+
+2. Install dependencies
+
+```
+npm install
+```
+
+3. In a another terminal start ganache cli inside eth-contracts/
+```
+ganache-cli
+```
+
+3. Inside eth-contracts/ compile the contracts
+```
+ truffle compile  
+```
+
+4. Run truffle tests
+```
+truffle test ./test/TestERC721Mintable.js 
+truffle test ./test/TestSquareVerifier.js 
+truffle test ./test/TestSolnSquareVerifier.js
+```
+
+![Testing](img/Screen-Shot-2020-05-17-at-11.11.15-AM.png)
 
 # Deployed Contracts
 
@@ -97,21 +141,27 @@ Summary
 > Final cost:          0.07400077 ETH
 ```
 
-# Minted tokens:
+# Minted tokens. 
 
-https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/11
-https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/2
-https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/12
-https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/3
-https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/4
-https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/5
-https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/6
-https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/7
-https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/8
-https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/9
-https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/10
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/11. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/2. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/12. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/3. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/4. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/5. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/6. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/7. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/8. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/9. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/10. 
 
+# Sold Tokens
 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/6. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/7. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/8. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/9. 
+https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/10.
 
 
 # Project Resources
