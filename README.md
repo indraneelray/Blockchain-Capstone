@@ -99,7 +99,6 @@ Summary
 
 # Minted tokens:
 
-```
 https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/11
 https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/2
 https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/12
@@ -111,7 +110,7 @@ https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/7
 https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/8
 https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/9
 https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/10
-```
+
 
 
 
