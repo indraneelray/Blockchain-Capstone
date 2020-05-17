@@ -3,7 +3,6 @@ pragma solidity >=0.5.6 <0.6.5;
 // TODO define a contract call to the zokrates generated solidity contract <Verifier> or <renamedVerifier>
 
 
-
 // TODO define another contract named SolnSquareVerifier that inherits from your ERC721Mintable class
 
 
