@@ -45,7 +45,7 @@ truffle test ./test/TestSquareVerifier.js
 truffle test ./test/TestSolnSquareVerifier.js
 ```
 
-![Testing](img/Screen-Shot-2020-05-17-at-11.11.15-AM.png)
+![Testing](img/tests.png)
 
 # Deployed Contracts
 
@@ -141,6 +141,10 @@ Summary
 > Final cost:          0.07400077 ETH
 ```
 
+# Minting tokens on MyEtherWallet
+
+![Mint](img/mint.png)
+
 # Minted tokens. 
 
 https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/11. 
@@ -163,6 +167,8 @@ https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/8.
 https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/9. 
 https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/10.
 
+# Listed Tokens
+![Mint](img/listings.png)
 
 # Project Resources
 
