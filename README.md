@@ -170,6 +170,10 @@ https://rinkeby.opensea.io/assets/0x44b57dbf20fd7aa55761032b03688e376faa0c96/10.
 # Listed Tokens
 ![Mint](img/listings.png)
 
+# Opensea Storefront
+
+https://rinkeby.opensea.io/assets/real-estate-marketplace-v17-1
+
 # Project Resources
 
 * [Remix - Solidity IDE](https://remix.ethereum.org/)
